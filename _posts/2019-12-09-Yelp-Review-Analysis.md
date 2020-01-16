@@ -10,7 +10,7 @@ tags:
     - Projects
     - Tableau
     - MSBA
-	- Python
+    - Python
 ---
 # Yelp Review Analysis
 
