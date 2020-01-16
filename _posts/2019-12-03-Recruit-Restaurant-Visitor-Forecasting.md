@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Recruit Restaurant Visitor Forecasting
-subtitle:   Text Mining, Tableau, Pyspark
+subtitle:   Text Mining, Machine Learning, Python, Time Series
 date:       2019-12-03
 author:     Xiangke
 header-img: img/post-bg-ios9-web.jpg
