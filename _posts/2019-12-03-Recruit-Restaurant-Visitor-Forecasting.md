@@ -984,17 +984,3 @@ We also could improve the modeling process. In order to improve the performance 
 **Expand the Timespan**
 
 Our current model is trained on data of 2-year time period. If we are able to collect data of longer time span and train our model on the enriched dataset, our model might be able to generate more accurate predictions.
-
-
-
-
-
-## References
-
-https://blog.keras.io/a-ten-minute-introduction-to-sequence-to-sequence-learning-in-keras.html
-https://github.com/Arturus/kaggle-web-traffic
-https://github.com/MaxHalford/kaggle-recruit-restaurant/blob/master/Solution.ipynb
-https://www.kaggle.com/pureheart/1st-place-lgb-model-public-0-470-private-0-502
-https://www.kaggle.com/plantsgo/solution-public-0-471-private-0-505
-https://www.kaggle.com/h4211819/holiday-trick
-https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting/discussion/49100
