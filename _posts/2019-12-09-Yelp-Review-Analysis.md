@@ -22,7 +22,7 @@ This project focuses on goal A. We performed text analytics on the yelp dataset 
 
 We built a review Dashboard for restaurant owners/managers containing review score trends, review keywords, negative review analysis (if negative review detected), etc. 
 
-**Analysis approach**
+# **Analysis approach**
 
 - Sentence-level: Quantifying the polarity scores of the comments by extracting keywords (‘too salty’, ‘poor service’, ‘rats in the kitchen’, etc) from reviews with negative feedback to help restaurants understand the reasons behind and improve. 
 
@@ -31,6 +31,8 @@ We built a review Dashboard for restaurant owners/managers containing review sco
 - Entity and Aspect level: analyze how a word, especially negative keyword, contributes to the overall score for restaurant, then summarize sentiment analysis and negative review reason analysis and display on restaurant dashboard (for restaurant managers to view) on a regular basis.
 
 We used the following tools : SparkML, Tableau, Databrick, AWS
+
+# DashBoard
 
 We also published our dashboard in *Tableau Public*, click the [link](https://public.tableau.com/profile/xiangke.chen#!/vizhome/YelpReviewAnalysis_15758570841320/final) and watch.
 
