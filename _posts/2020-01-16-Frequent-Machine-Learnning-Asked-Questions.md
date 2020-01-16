@@ -118,17 +118,23 @@ exp(betap) is the effect of unit increase in the independent variable xp on the 
 
 Assumption: attributes are conditionally independent of each other, given class label 
 
-so that we can simplify P(X|Ci) = P(x1|Ci) * P(x2|Ci)* ....P(Xk|Ci). And can be very efficient on large dataset.
+so that we can simplify 
+
+```
+P(X|Ci) = P(x1|Ci) * P(x2|Ci)* ....P(Xk|Ci).
+```
+
+ And can be very efficient on large dataset.
 
 If we bring in covariance/correlation between attrbutes into consideration, then the computation process would be very costly for dataset with many features.
 
 Probability ranking might not be accurate but the ranking are still valid, thus the prediction are often accurate
 
-**2.How to calculate P(X_k|C_i) when X_k is categorical/numerical?**
+**2.How to calculate `P(X_k|C_i)` when X_k is categorical/numerical?**
 
-- Categorical: P(Xk|Ci) = |Di,xk| / |Di| . the ratio of the number of data points in clusters i that have the same value as the predicted data point on Ak attribute over the total number of points of cluster i
+- Categorical: `P(Xk|Ci) = |Di,xk| / |Di|` . the ratio of the number of data points in clusters i that have the same value as the predicted data point on Ak attribute over the total number of points of cluster i
 
-- Numeric: usually we will assume certain distribution, often Gaussian. Then just use normal distribution pdf to calculate P(Xk|Ci) = pdf(Xk)
+- Numeric: usually we will assume certain distribution, often Gaussian. Then just use normal distribution pdf to calculate `P(Xk|Ci) = pdf(Xk)`
 
   mu*Ci* *,*sigma*Ci* – mean and standard deviation for Ak within Ci 
 
