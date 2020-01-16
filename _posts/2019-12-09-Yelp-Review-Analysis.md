@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Yelp Review Analysis
-subtitle:   Natural Language Programming
+subtitle:   Text Mining, Tableau, Pyspark
 date:       2019-12-09
 author:     Xiangke
 header-img: img/post-bg-ios9-web.jpg
