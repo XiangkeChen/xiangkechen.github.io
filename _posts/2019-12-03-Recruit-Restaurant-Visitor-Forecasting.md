@@ -9,7 +9,7 @@ catalog: true
 tags:
     - Projects
     - Machine Learning
-    - MSBA
+    - Data Analysis
     - Python
 ---
 

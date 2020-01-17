@@ -9,7 +9,7 @@ catalog: true
 tags:
     - Projects
     - Tableau
-    - MSBA
+    - Data Analysis
     - Python
 ---
 # Yelp Review Analysis
