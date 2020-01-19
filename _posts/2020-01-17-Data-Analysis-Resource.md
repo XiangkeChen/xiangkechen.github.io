@@ -27,60 +27,57 @@ So I want to help people to get a quick view of what kind of knowledge do you ne
 
 # STATISTIC
 
-<In introduction to statistical learning with application in R> 
+- In introduction to statistical learning with application in R
+- Practical Statistics for Data Scientists
 
-<Practical Statistics for Data Scientists>
-
-<The Elements of Statistical Learning>
+- The Elements of Statistical Learning
 
 # MACHINE LEARNING
 
-<DataScience for Business>
+- DataScience for Business
 
-<Hands on Machine Learning with ScikitLearn>
+- Hands on Machine Learning with ScikitLearn
 
-<The Path to Predictive Analytics and Machine Learning>
+- The Path to Predictive Analytics and Machine Learning
 
 # PYTHON
 
-<Python Data Science Handbook>
+- Python Data Science Handbook
 
-<Starting Out with Python>
+- Starting Out with Python
 
 # R
 
-<R for Data Science>
+- R for Data Science
 
 # BIG DATA
 
-<Programming Hive>
+- Programming Hive
 
-<The-Data-Engineers-Guide-to-Apache-Spark>
+- The-Data-Engineers-Guide-to-Apache-Spark
 
-<Hadoop the definite guide>
+- Hadoop the definite guide
 
 # DATABASE & SQL
 
-<Database Design Application Development and Administration>
+- Database Design Application Development and Administration
 
-<MYSQL Cookbook>
+- MYSQL Cookbook
 
-<SQL Queries for mere mortals>
+- SQL Queries for mere mortals
 
 # PRODUCT
 
-<Lean Analycis>
+- Lean Analycis
 
-<Cracking the PM Interview>
+- Cracking the PM Interview
 
 # CASE INTERVIEW
 
-<Case in Point>
-
-
+- Case in Point
 
 -------
 
 For all the books mentioned above, I have the PDF version. Feel free to email me and I'll give it to you.
 
-Happy Reading! 
+**Happy Reading!** 
