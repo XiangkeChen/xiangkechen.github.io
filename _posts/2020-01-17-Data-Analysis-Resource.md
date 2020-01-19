@@ -83,4 +83,4 @@ So I want to help people to get a quick view of what kind of knowledge do you ne
 
 For all the books mentioned above, I have the PDF version. Feel free to email me and I'll give it to you.
 
-Happy Reading! :grin:
+Happy Reading! 
