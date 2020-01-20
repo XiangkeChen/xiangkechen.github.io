@@ -46,7 +46,7 @@ So I want to help people to get a quick view of what kind of knowledge do you ne
 
 - Starting Out with Python
 
-# R
+# R PROGRAMMING
 
 - R for Data Science
 
