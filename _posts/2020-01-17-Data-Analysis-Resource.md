@@ -15,7 +15,7 @@ Here I want to summarize some important resources that are useful for data analy
 
 Data Science/Analytics is usually a mixed area of *data engineer, programming, stats* .etc. 
 
-![ds-area](../img/post-ml-area.jpeg)
+![1Pb5uD.jpg](2020-01-17-Data-Analysis-Resource.assets/1Pb5uD.jpg)
 
 ​																																Image from [townrdsdatascience]()
 
