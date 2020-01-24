@@ -13,8 +13,21 @@ tags:
 
 
 
-
+Update time: 01/24/2020
 
 # Conceptual Questions
 
-## Prediction VS Forecasting
+**Prediction VS Forecasting**
+
+Forecasting would be a subset of prediction. Any time you predict into the future it is a forecast. 
+
+All forecasts are predictions, but not all predictions are forecasts, as when you would use regression to explain the relationship between two variables.
+
+
+
+
+
+# To Be Continued ...
+
+I'll keep updating this post along the time
+
