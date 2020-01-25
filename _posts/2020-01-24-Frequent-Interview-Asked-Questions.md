@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Frequent Asked Interview Questions
+title:      Questions You Should Know As A Data Analyst
 subtitle:   Machine Learning, Tips
 date:       2020-01-24
 author:     Xiangke
@@ -14,6 +14,14 @@ tags:
 
 
 Update time: 01/24/2020
+
+
+
+I want to collect some questions while preparing for my job seeking process. And I am very likely to search the answer on Google. So it might not be perfect. Feel free to point out any thoughts you have.
+
+Hope it helps to some extent.
+
+
 
 # Conceptual Questions
 
