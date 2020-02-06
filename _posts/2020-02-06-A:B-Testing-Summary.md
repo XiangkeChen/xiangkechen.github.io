@@ -31,10 +31,15 @@ The p-value is the probability of obtaining at least as extreme results given th
 
 In AB testing, the p-value is the difference we would see across samples if we ran an A/B test.
 
+
+
 ## Significance Level
 
-The significance level is the probability of rejecting the null hypothesis given that it is true. It's a value we set based on the level of accuracy we deem acceptable.
+The significance level is the probability of rejecting the null hypothesis is given that it is true. It's a value we set based on the level of accuracy we deem acceptable.
+
 In AB testing, the significance level is the industry standard 5% we use to give us results with 95% confidence.
+
+
 
 ## **Statistical Hypothesis Testing**
 
@@ -47,32 +52,43 @@ To put this in more practical terms, a prediction is made that Page Variation #B
 
 A data sample is a set of data collected and/or selected from a statistical population by a defined procedure. It's a small portion of the larger population.
 
-When AB testing, the sample is the number of visitors we display our new page variation too in order to collect data.
+In AB testing, the sample is the number of visitors we display our new page variation too in order to collect data.
+
+
 
 ## Mean
 
 The mean is the central tendency of a probability distribution.
+
 In AB testing, the mean is our page's conversion rate with the sample visitors.
+
+
 
 ## Variance
 
 The variance is a measure of variability across samples. It is officially the expectation of the squared deviation of a random variable from its mean.
+
 In AB testing, the variance affects the sample size we need in order to have a chance of deriving statistically significant results.
 
-**Regression to the Mean
 
-**Regression to the mean is the phenomenon that if a variable is extreme on its first measurement, it will tend to be closer to the average on its second measurement.. check 1point3acres for more.
+
+## Regression to the Mean
+
+Regression to the mean is the phenomenon that if a variable is extreme on its first measurement, it will tend to be closer to the average on its second measurement.
 
 In AB testing, this phenomenon ensures that as we continue increasing the sample size and the length of observation, the mean of our cumulative observations will get closer and closer to the true mean of the population.
-——————————
 
-## **Statistical Population**
+
+
+## Statistical Population
 
 In statistics, a population is a set of similar items or events which is of interest for some question or experiment. It's the group we want information about.
 
 When AB testing a webpage, the true population is every future individual who will visit that page
 
-## **Confidence Level & Interval**
+
+
+## Confidence Level & Interval
 
 The confidence interval is an observed range in which a given percentage of test outcomes fall. The confidence interval is determined by the confidence level we manually select at the beginning of our test and influences the sample size required.
 
@@ -81,8 +97,7 @@ In AB testing, the confidence level is usually set to 95%, which gives us a rang
 
 ## Margin of Error
 
-
-**The margin of error is a statistic expressing the amount of random sampling error in a sample's results. The margin for error is a function of the standard deviation, which is a function of the variance. Really all you need to know is that all of these terms are measures of variability across samples.
+The margin of error is a statistic expressing the amount of random sampling error in a sample's results. The margin for error is a function of the standard deviation, which is a function of the variance. Really all you need to know is that all of these terms are measures of variability across samples.
 
 The margin of error is added to and subtracted form the mean to determine the confidence interval.
 
@@ -117,9 +132,31 @@ A type II error occurs when the null hypothesis is false, but we incorrectly fai
 
 To put this in AB testing terms, a type II error would occur if we concluded that Variation B was not "better" than Variation A when it actually was better. These errors are avoided by running tests with a high statistical power.
 
+## Overall Evaluation Metric (OEC)
+
+One overall metrics
+
+## Heterogeneity (HTE)
+
+Segment X
 
 
-## Experiments
+
+## Long Term Effect
+
+
+
+## Network Effect
+
+
+
+
+
+
+
+# Experiments
+
+To be Continued
 
 
 
