@@ -132,7 +132,7 @@ A type II error occurs when the null hypothesis is false, but we incorrectly fai
 
 To put this in AB testing terms, a type II error would occur if we concluded that Variation B was not "better" than Variation A when it actually was better. These errors are avoided by running tests with a high statistical power.
 
-## Overall Evaluation Metric (OEC)
+### Overall Evaluation Metric (OEC)
 
 One overall metrics
 
