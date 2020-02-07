@@ -23,6 +23,30 @@ Lasest Update time: 2020/02/06
 
 
 
+# General Questions
+
+General Questions You Should Be Aware Of:
+
+- When is A/B Testing a good idea? When is it a bad idea?
+- What is a Null Hypothesis/Statistical Significance?
+- What are the main steps in A/B Testing?
+- What metrics do you want to improve?
+- Can you think of some variations can be made?
+- What change do you want to test? Why?
+- How many visiits/sample size do I need?
+- Can you calculate the practical significance (given costs)?
+- Will you launch the variation? (Given the test result)
+
+- How big is the sample size
+- How long to run the experiment?
+- How much traffic% for testing?
+- How to divide the % of the traffic for testing?
+- What's the target audience of the testing?
+
+
+
+
+
 # Concepts
 
 #### **P-Value**
@@ -162,13 +186,58 @@ Segment X
 
 
 
+# Metrics
+
+General
+
+
+
+#### Count
+
+- Page View
+- Visit / Session
+- Click
+- Visitor / Unique Visitors
+- Active Users (DAU, MAU)
+
+#### Conversion
+
+- Click Thru Rate (CTR)
+- Click Thru Probability
+- User Click Probability
+- Bounce Rate (people leave rate)
+
+#### Time
+
+- Active Time
+- Page View Duration
+
+#### Business
+
+- Revenue 
+- Member
+- Order
+
+#### Ads Analytics
+
+- Impression
+- Click
+
+#### Composite Metric
+
+
+
 
 
 # Experiments
 
-To be Continued
+**Quesions**
 
-
+- How big is the sample size
+- How long to run the experiment?
+- How much traffic% for testing?
+- How to divide the % of the traffic for testing?
+- What's the target audience of the testing?
 
 # Appendix
 
