@@ -1,7 +1,7 @@
 ---
 
 layout:     post
-title:      A/B Testing Summary
+title:      A/B Testing Common Questions
 subtitle:   A/B Testing
 date:       2020-02-06
 author:     Xiangke
