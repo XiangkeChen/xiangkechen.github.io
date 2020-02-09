@@ -14,7 +14,7 @@ tags:
 
 
 
-# A/B Testing Summary
+# A/B Testing Concepts
 
 
 
@@ -26,59 +26,7 @@ Lasest Update time: 2020/02/06
 
 # Assumption of A/B Testing
 
-- Samples are independent 
-
-# General Questions
-
-General Questions You Should Be Aware Of:
-
-- What is A/B Testing?
-
-  the idea is to challenge an existing version (A) with a new one (B), by randomly splitting traffic and comparing metrics on each of the splits.
-
-- When is A/B Testing a good idea? When is it a bad idea?
-
-  A/B Testing cannot test haven't existed yet. It also has issue with testing new products. It cannot to measure long-term effect. If a feature takes a long time to be effective, AB Testing might not be a good solution. It has novelty effect.
-
-- What is a Null Hypothesis/Statistical Significance?
-
-- How to avoid novelty effect?
-
-  AB Testing. 都找new users. 都找new users. But the downside of this is that you need to operate enough time to collect enough data to generate significant result
-
-  Also you can try to run the experiment a little longer so that users can be more family with your products. 
-
-- What are the main steps in A/B Testing?
-
-- What metrics do you want to improve?
-
-- Can you think of some variations can be made?
-
-- What change do you want to test? Why?
-
-- How many visiits/sample size do I need?
-
-- Can you calculate the practical significance (given costs)?
-
-- Will you launch the variation? (Given the test result)
-
-- How big is the sample size
-
-- How long to run the experiment?
-
-- How much traffic% for testing?
-
-- How to divide the % of the traffic for testing?
-
-- What's the target audience of the testing?
-
-
-
-- How to your result more confidence?
-
-  You can increase in confidence by A increase the confidence level which means you can change your significant level and increase the power.
-
-  You can increase the power. A) increase the sample size , so you can either open your experiment to attach more traffic or longer time
+- Samples are independent
 
 
 
