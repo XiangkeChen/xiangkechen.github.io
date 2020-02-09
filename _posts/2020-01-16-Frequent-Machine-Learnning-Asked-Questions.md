@@ -4,7 +4,7 @@ title:      Frequent Asked Machine Learning Questions
 subtitle:   Machine Learning, Tips
 date:       2020-01-16
 author:     Xiangke
-header-img: img/post-bg-ios9-web.jpg
+header-img: img/tag-bg-o.jpg
 catalog: true
 tags:
     - Machine Learning

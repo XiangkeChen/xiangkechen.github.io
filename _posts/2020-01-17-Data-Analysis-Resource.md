@@ -4,7 +4,7 @@ title:      Data Analysis Resource
 subtitle:   data analysis
 date:       2020-01-17
 author:     Xiangke
-header-img: img/post-bg-ios9-web.jpg
+header-img: img/tag-bg-o.jpg
 catalog: true
 tags:
     - Data Analysis

@@ -4,7 +4,7 @@ title:      Questions You Should Know As A Data Analyst
 subtitle:   Data Analysis, Tips
 date:       2020-01-24
 author:     Xiangke
-header-img: img/post-bg-ios9-web.jpg
+header-img: img/tag-bg-o.jpg
 catalog: true
 tags:
     - Data Analysis

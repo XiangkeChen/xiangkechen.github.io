@@ -5,7 +5,7 @@ title:      A/B Testing Summary
 subtitle:   A/B Testing
 date:       2020-02-06
 author:     Xiangke
-header-img: img/post-bg-map.jpg
+header-img: img/tag-bg-o.jpg
 catalog: true
 tags:
     - Data Analysis
