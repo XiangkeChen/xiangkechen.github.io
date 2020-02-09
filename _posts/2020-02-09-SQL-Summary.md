@@ -5,7 +5,7 @@ title:      SQL Summary
 subtitle:   Mysql, Database
 date:       2020-02-09
 author:     Xiangke
-header-img: img/post-bg-keybord.jpg
+header-img: img/tag-bg-o.jpg
 catalog: true
 tags:
     - Data Analysis
