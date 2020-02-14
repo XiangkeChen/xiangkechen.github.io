@@ -30,11 +30,15 @@ General Questions You Should Be Aware Of:
 
 
 
-# Conceptual Questions
+# General Questions
 
 - **What is A/B Testing?**
 
   the idea is to challenge an existing version (A) with a new one (B), by randomly splitting traffic and comparing metrics on each of the splits.
+
+- **Why ABT**
+
+  By measuring the impact that changes have on your metrics, you can ensure that every change produces positive results. Nowadays it’s very common for companies to do A/B tests on web page versions, personalized recommendations and new features.
 
 - **When is A/B Testing a good idea? When is it a bad idea?**
 
@@ -238,5 +242,6 @@ Some concepts are from forum 1point3acre. I adjusted them and appended my own co
 
 # Resources
 
-[5 Validity Threats That Will Make Your A/B Tests Useless](https://splitbase.com/ab-testing-threats/)
+- [5 Validity Threats That Will Make Your A/B Tests Useless](https://splitbase.com/ab-testing-threats/)
 
+- [Summary of Udacity ABT](https://towardsdatascience.com/a-summary-of-udacity-a-b-testing-course-9ecc32dedbb1):

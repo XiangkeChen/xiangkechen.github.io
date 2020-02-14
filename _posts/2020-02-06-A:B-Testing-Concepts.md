@@ -82,7 +82,7 @@ In AB testing, the variance affects the sample size we need in order to have a c
 
 
 
-**Regression to the Mean**
+**Regression to the Mean / Statistical Regressoin**
 
 Regression to the mean is the phenomenon that if a variable is extreme on its first measurement, it will tend to be closer to the average on its second measurement.
 
@@ -103,6 +103,8 @@ When AB testing a webpage, the true population is every future individual who wi
 The confidence interval is an observed range in which a given percentage of test outcomes fall. The confidence interval is determined by the confidence level we manually select at the beginning of our test and influences the sample size required.
 
 In AB testing, the confidence level is usually set to 95%, which gives us a range (the confidence interval) in which we know the mean will fall in at least 19 of 20 samples.
+
+
 
 **Margin of Error**
 
@@ -322,3 +324,4 @@ Some concepts are from forum 1point3acre. I adjusted them and appended my own co
 
 [5 Validity Threats That Will Make Your A/B Tests Useless](https://splitbase.com/ab-testing-threats/)
 
+[Summary of Udacity ABT](https://towardsdatascience.com/a-summary-of-udacity-a-b-testing-course-9ecc32dedbb1):
