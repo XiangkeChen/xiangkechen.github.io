@@ -119,7 +119,11 @@ Probability ranking might not be accurate but the ranking are still valid, thus 
 
 4. **Why is Naive Bayes is less likely to suffer from overfitting?**
 
-   Answer: 
+   Answer: [Link](https://xiangkechen.github.io/2020/02/14/Frequent-Machine-Learnning-Asked-Questions-Algorithm/)
+
+   
+
+   
 
 # KNN
 

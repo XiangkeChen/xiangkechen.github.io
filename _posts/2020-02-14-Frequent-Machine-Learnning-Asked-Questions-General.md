@@ -27,7 +27,23 @@ update history:
 
 ## Missing Values
 
+Reference Link: [Link](https://towardsdatascience.com/how-to-handle-missing-data-8646b18db0d4)
 
+
+
+There are several types of Missing Values:
+
+1. **Missing at Random (MAR):** Missing at random means that the propensity for a data point to be missing is not related to the missing data, but it is related to some of the observed data
+2. **Missing Completely at Random (MCAR):** The fact that a certain value is missing has nothing to do with its hypothetical value and with the values of other variables.
+3. **Missing not at Random (MNAR):** Two possible reasons are that the missing value depends on the hypothetical value (e.g. People with high salaries generally do not want to reveal their incomes in surveys) or missing value is dependent on some other variable’s value (e.g. Let’s assume that females generally don’t want to reveal their ages! Here the missing value in age variable is impacted by gender variable)
+
+So , if MCAR, we can impute or just drop them. The common practice is that we drop when we have a lot of data. We impute when we have limited data. Be mindful that imputation might result in bias.
+
+Is missing values has pattern, they might contain true information so that we shouldn't drop them otherwise we produce bias. We can replace with **NA**. We can predict.... But still be mindful of introducing bias.
+
+
+
+**Exercise**
 
 **You found out that data set contains 25-30% missing values. How will you deal with it?**
 
@@ -36,9 +52,7 @@ update history:
 
 Sample dataset can be found here: [link](https://bit.ly/2BW9S7j)
 
-
-
-
+(Answer can refer the previous paragraphs.)
 
 
 
