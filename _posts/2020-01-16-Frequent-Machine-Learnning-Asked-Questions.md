@@ -2,13 +2,21 @@
 layout:     post
 title:      Frequent Asked Machine Learning Questions
 subtitle:   Machine Learning, Tips
-date:       2020-01-16
+date:       2020-02-24
 author:     Xiangke
 header-img: img/tag-bg-o.jpg
 catalog: true
 tags:
     - Machine Learning
 ---
+
+
+
+```
+update history:
+1. Jan 16th
+2. Feb 24th
+```
 
 
 
@@ -49,11 +57,50 @@ The tendency of DM procedure to tailor models to the training data, at the expen
 
 
 
-**2.How to avoid over-fitting in decision tree, KNN and logistic?**
+**2.How to avoid Over-Fitting?**
 
--cross validation. train model on subtraining sets, then estimate the geralization performance for each from the validation sets, and then pick the best performed one and the hyper parameters. Then train the model on whole training set using tunned hyper parameters.
+**General Approaches**
 
--sequential forward selection for features.
+[Reference Link](https://elitedatascience.com/overfitting-in-machine-learning#how-to-prevent)
+
+1. **<u>Cross-Validation</u>**
+
+   Use your initial training data to generate multiple mini train-test splits. Use these splits to tune your model.
+
+2. **<u>Train with more Data</u>**
+
+   Detect more signal
+
+3. **<u>Remove some useless features</u>**
+
+4. **<u>Early Stopping</u>**
+
+   Up until a certain number of iterations, new iterations improve the model. After that point, however, the model’s ability to generalize can weaken as it begins to overfit the training data.
+
+5. <u>**Regularization**</u>
+
+   Regularization refers to a broad range of techniques for artificially forcing your model to be simpler.
+
+   The method will depend on the type of learner you’re using. For example, you could prune a decision tree, use dropout on a neural network, or add a penalty parameter to the cost function in regression.
+
+   Oftentimes, the regularization method is a hyperparameter as well, which means it can be tuned through cross-validation.
+
+6. **<u>Ensembling</u>**
+
+   1. Bagging 
+   2. Boosting
+
+   
+
+7. 
+
+
+
+
+
+- cross validation. train model on subtraining sets, then estimate the generalization performance for each from the validation sets, and then pick the best performed one and the hyper parameters. Then train the model on whole training set using tunned hyper parameters.
+
+- sequential forward selection for features.
 
 DT:
 
@@ -67,6 +114,8 @@ KNN:
 Logistics:
 
 - Use regularization term, C = 1/lambda
+
+
 
 **3.Why Naive Bayesian is less likely to suffered from over-fitting?**
 

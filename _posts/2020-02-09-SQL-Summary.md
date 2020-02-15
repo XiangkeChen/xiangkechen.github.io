@@ -3,7 +3,7 @@
 layout:     post
 title:      SQL Summary
 subtitle:   Mysql, Database
-date:       2020-02-09
+date:       2020-02-14
 author:     Xiangke
 header-img: img/tag-bg-o.jpg
 catalog: true
@@ -12,6 +12,16 @@ tags:
     - SQL
     - DataBase
 ---
+
+
+
+```
+update history:
+- 2020/02/09 original post
+- 2020/02/14 update time functions
+```
+
+
 
 
 
@@ -407,6 +417,10 @@ date_time(date, format)
   The WEEKDAY() function returns the weekday number for a given date.
 
   **Note:** 0 = Monday, 1 = Tuesday, 2 = Wednesday, 3 = Thursday, 4 = Friday, 5 = Saturday, 6 = Sunday.
+  
+- **MONTH() / YEAR() / DAY() **
+
+  Extract the month/day/year of a `timestamp`
 
 
 
