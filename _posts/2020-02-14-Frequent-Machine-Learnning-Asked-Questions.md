@@ -163,6 +163,14 @@ exp(betap) is the effect of unit increase in the independent variable xp on the 
 
 # Naive Bayes
 
+This is a classification technique.
+
+
+
+![img](https://miro.medium.com/max/1020/1*tjcmj9cDQ-rHXAtxCu5bRQ.png)
+
+
+
 **1.Why need the Naive assumption in the Naive Bayesian classifier?**
 
 Assumption: attributes are conditionally independent of each other, given class label 
@@ -179,6 +187,8 @@ If we bring in covariance/correlation between attrbutes into consideration, then
 
 Probability ranking might not be accurate but the ranking are still valid, thus the prediction are often accurate
 
+
+
 **2.How to calculate `P(X_k|C_i)` when X_k is categorical/numerical?**
 
 - Categorical: `P(Xk|Ci) = |Di,xk| / |Di|` . the ratio of the number of data points in clusters i that have the same value as the predicted data point on Ak attribute over the total number of points of cluster i
@@ -187,7 +197,12 @@ Probability ranking might not be accurate but the ranking are still valid, thus 
 
   mu*Ci* *,*sigma*Ci* – mean and standard deviation for Ak within Ci 
 
-  
+
+3. **Disadvantage of Naive Bayes**
+   - Strong assumption of feature independence
+     - This might be a problem because in real world it's very likely that features are not independent.
+   - When current data is not representative enough of the overall distribution, the prior estimation will be wrong.
+   - Cannot incorporate feature interactions 
 
 # KNN
 

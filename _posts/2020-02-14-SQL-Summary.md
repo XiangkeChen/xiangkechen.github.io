@@ -464,4 +464,8 @@ date_time(date, format)
 
   For example, `employee table` can be names as `employee` and `manager`
 
+- We usually use `full-group_by` so that we should include all selected columns in the `group by` clause.
+
+  So be careful that those columns not including in the `groupby` might result errors
+
   
