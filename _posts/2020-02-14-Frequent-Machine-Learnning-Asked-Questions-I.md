@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Frequent Asked Machine Learning Questions
+title:      Frequent Asked Machine Learning Questions- Algorithm
 subtitle:   Machine Learning, Tips
-date:       2020-02-24
+date:       2020-02-14
 author:     Xiangke
 header-img: img/tag-bg-o.jpg
 catalog: true
@@ -17,8 +17,6 @@ update history:
 1. Jan 16th
 2. Feb 24th
 ```
-
-
 
 
 
@@ -40,94 +38,6 @@ difference:
 **2.The difference of binary classification and multi-class classification.**
 
 **multiclass** or **multinomial classification** is the problem of [classifying](https://en.wikipedia.org/wiki/Statistical_classification) instances into one of three or more classes. (Classifying instances into one of two classes is called [binary classification](https://en.wikipedia.org/wiki/Binary_classification).)
-
-# Overfitting
-
-**1.What is the signal of your model is over-fitting and why almost all predictive models are prone to over-fitting?**
-
-Model doesn’t generalize well from our training data to unseen data. 
-
-Signal: 
-
-accuracy/any kind of error plot plot of training and testing data, those two line diverges as model become more and more complex
-
-Why:
-
-The tendency of DM procedure to tailor models to the training data, at the expense of generalization to previously unseen data points
-
-
-
-**2.How to avoid Over-Fitting?**
-
-**General Approaches**
-
-[Reference Link](https://elitedatascience.com/overfitting-in-machine-learning#how-to-prevent)
-
-1. **<u>Cross-Validation</u>**
-
-   Use your initial training data to generate multiple mini train-test splits. Use these splits to tune your model.
-
-2. **<u>Train with more Data</u>**
-
-   Detect more signal
-
-3. **<u>Remove some useless features</u>**
-
-4. **<u>Early Stopping</u>**
-
-   Up until a certain number of iterations, new iterations improve the model. After that point, however, the model’s ability to generalize can weaken as it begins to overfit the training data.
-
-5. <u>**Regularization**</u>
-
-   Regularization refers to a broad range of techniques for artificially forcing your model to be simpler.
-
-   The method will depend on the type of learner you’re using. For example, you could prune a decision tree, use dropout on a neural network, or add a penalty parameter to the cost function in regression.
-
-   Oftentimes, the regularization method is a hyperparameter as well, which means it can be tuned through cross-validation.
-
-6. **<u>Ensembling</u>**
-
-   1. Bagging 
-   2. Boosting
-
-   
-
-7. 
-
-
-
-
-
-- cross validation. train model on subtraining sets, then estimate the generalization performance for each from the validation sets, and then pick the best performed one and the hyper parameters. Then train the model on whole training set using tunned hyper parameters.
-
-- sequential forward selection for features.
-
-DT:
-
-- stop growing tree before it gets too complex (hyperparameter tunning)
-- purnning. (can prune tree branches that represent anomalies which might just be noise)
-
-KNN:
-
-- chose K based on validation
-
-Logistics:
-
-- Use regularization term, C = 1/lambda
-
-
-
-**3.Why Naive Bayesian is less likely to suffered from over-fitting?**
-
-Briefly, with the Naive Bayes (NB) algorithm the 'naive' conditional independence assumption means that interactions between variables can be ignored. What follows is:
-
-- it has a simpler hypothesis function (compared with other algorithms e.g. logistic regression)
-
-- since the interactions are not modeled, some of the information in the data is ignored. This makes it an inherently high bias model; it has a high approximation error but as a result it also does not overfit. (A model with high variance attempts to model all of the data including the noise in the data).
-
-- Since the interactions are not modeled, less training data is needed. This is why the NB classifier is known to perform well both with small data sets and with missing data.
-
-**not sure about this..**
 
 
 
@@ -201,8 +111,15 @@ Probability ranking might not be accurate but the ranking are still valid, thus 
 3. **Disadvantage of Naive Bayes**
    - Strong assumption of feature independence
      - This might be a problem because in real world it's very likely that features are not independent.
-   - When current data is not representative enough of the overall distribution, the prior estimation will be wrong.
+   - When current data is not representative enough of the overall distribution, the prior estimation will be wrong and might be biased.
+     - For example, if your data has network effect.
    - Cannot incorporate feature interactions 
+
+
+
+4. **Why is Naive Bayes is less likely to suffer from overfitting?**
+
+   Answer: 
 
 # KNN
 
