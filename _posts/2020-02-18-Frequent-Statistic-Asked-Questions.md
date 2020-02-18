@@ -9,6 +9,7 @@ catalog: true
 tags:
     - Data Analysis
     - Statistics
+    - FAQ
 ---
 
 
@@ -71,7 +72,7 @@ Covariance is a measure of the relationship between two random variables. The me
 
 
 
-![cov](https://cdn.corporatefinanceinstitute.com/assets/covariance1.png)
+![3APRpQ.png](https://s2.ax1x.com/2020/02/18/3APRpQ.png)
 
 
 

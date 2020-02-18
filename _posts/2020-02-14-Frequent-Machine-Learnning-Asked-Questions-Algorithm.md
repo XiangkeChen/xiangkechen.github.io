@@ -8,6 +8,7 @@ header-img: img/tag-bg-o.jpg
 catalog: true
 tags:
     - Machine Learning
+    - FAQ
 ---
 
 
