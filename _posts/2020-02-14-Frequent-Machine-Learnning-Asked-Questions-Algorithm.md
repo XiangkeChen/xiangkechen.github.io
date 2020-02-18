@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Frequent Asked Machine Learning Questions- Algorithm
-subtitle:   Machine Learning, Tips
+subtitle:   Machine Learning, Tips, FAQ
 date:       2020-02-14
 author:     Xiangke
 header-img: img/tag-bg-o.jpg
