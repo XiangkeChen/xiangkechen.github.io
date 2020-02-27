@@ -2,7 +2,7 @@
 layout:     post
 title:      Yelp Review Analysis
 subtitle:   Text Mining, Tableau, Pyspark
-date:       2019-12-09
+date:       2020-02-27
 author:     Xiangke
 header-img: img/tag-bg-o.jpg
 catalog: true

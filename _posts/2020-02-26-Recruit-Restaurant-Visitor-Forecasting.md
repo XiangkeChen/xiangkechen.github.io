@@ -2,7 +2,7 @@
 layout:     post
 title:      Recruit Restaurant Visitor Forecasting
 subtitle:   Time Series, Machine Learning, Python
-date:       2019-12-03
+date:       2020-02-26
 author:     Xiangke
 header-img: img/tag-bg-o.jpg
 catalog: true
