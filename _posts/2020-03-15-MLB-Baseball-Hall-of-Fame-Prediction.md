@@ -22,12 +22,6 @@ For detail codes, please go to check my GitHub: [Link](https://github.com/Xiangk
 
 # MLB - Data Challenge
 
------
-
-**Notes:** The details of my implementation without many codes. This document is written for technical audience. So more code and logic details, please refer to `mlb-data_challenge`
-
-[TOC]
-
 <div style="page-break-after: always;"></div>
 
 # Business Background
