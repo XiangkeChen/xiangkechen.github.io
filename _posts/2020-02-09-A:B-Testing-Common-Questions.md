@@ -3,7 +3,7 @@
 layout:     post
 title:      A/B Testing Common Questions
 subtitle:   A/B Testing
-date:       2020-02-06
+date:       2020-02-09
 author:     Xiangke
 header-img: img/tag-bg-o.jpg
 catalog: true
