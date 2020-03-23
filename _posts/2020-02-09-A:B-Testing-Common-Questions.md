@@ -19,7 +19,8 @@ tags:
 
 
 ```
-Lasest Update time: 2020/03/22
+- original post time: 2020/02/09
+- Lasest Update time: 2020/03/22
 ```
 
 
@@ -158,6 +159,8 @@ Statistical power is the probability that a test correctly rejects the null hypo
 
 **Type I Error**
 
+Alpha - false postive
+
 A type I error occurs when we incorrectly reject the null hypothesis.
 
 In AB testing, a type I error would occur if we concluded that Variation B was "better" than Variation A when it actually was not. These errors are avoided by achieving statistically significant results.
@@ -166,22 +169,20 @@ In AB testing, a type I error would occur if we concluded that Variation B was "
 
 **Type II Error**
 
+Beta - false negative
+
 
 A type II error occurs when the null hypothesis is false, but we incorrectly fail to reject it.
 
 To put this in AB testing terms, a type II error would occur if we concluded that Variation B was not "better" than Variation A when it actually was better. These errors are avoided by running tests with a high statistical power.
+
+![image-20200322130307873](2020-02-09-A:B-Testing-Common-Questions.assets/image-20200322130307873.png)
 
 
 
 **Overall Evaluation Metric (OEC)**
 
 One overall metrics
-
-
-
-**Heterogeneity (HTE)**
-
-Segment X
 
 
 
@@ -195,9 +196,15 @@ For example,
 
  You want to test if two referral coupons are effective for customers on a hotel-rental website. Since people don't visit Hotel very often, it may takes some time to be effective
 
-**Network Effect**
+- How to solve long-term effect?
 
-网络外部性
+  Short development cycles, incurs engineering cost, non-persistent user tracking and interactions
+
+  Use short-term goal to measure long-term effect by inference
+
+
+
+Network Effect**
 
 A **[network effect](https://en.wikipedia.org/wiki/Network_effect)** (also called **network externality** or **demand-side economies of scale**) is the effect described in [economics](https://en.wikipedia.org/wiki/Economics) and [business](https://en.wikipedia.org/wiki/Business) that an additional user of [goods](https://en.wikipedia.org/wiki/Goods) or [services](https://en.wikipedia.org/wiki/Service_(economics)) has on the [value](https://en.wikipedia.org/wiki/Value_(economics)) of that product to others. When a network effect is present, the value of a product or service increases according to the number of others using it.
 
@@ -225,27 +232,25 @@ The classic example is the telephone, where a greater number of users increases 
 
   A good proxy to check for novelty effect is:
 
+  
+
+  
+
   **IMPORTANT**
 
   1. From your test results, only consider users for which it was the first experience on the site. First time users are obviously not affected by novelty effect.
 
   2. Look at test results between new users in the control group vs new users in test group
-
+  
   3. If test group is winning overall, but not winning for the new user subset, it is a big warning that your results might be affected by novelty effect. Especially in cases like the one of the question where you already know that some time after making the change, you saw no improvement.
-
+  
   
 
 
 
 
 
-
-
 # Metrics
-
-General
-
-
 
 **Count**
 
@@ -259,8 +264,20 @@ General
 
 - Click Thru Rate (CTR)
 - Click Thru Probability
-- User Click Probability
-- Bounce Rate (people leave rate)
+
+## Bounce Rate
+
+[Explanation from Optimizely](https://www.optimizely.com/optimization-glossary/bounce-rate/)
+
+**What is Bounce Rate?**
+
+Bounce rate is the percentage of site visits that are single-page sessions, with the visitor leaving without viewing a second page. It is typically used as a measurement of a website’s overall engagement.
+
+**How is Bounce Rate Calculated?**
+
+Bounce rate is calculated by the total number of one-page visits divided by the total number of entries to a website. For example, if the homepage of a website receives 1,000 visitors over the course of a month, and 500 of those visitors leave the site after viewing the homepage without proceeding to any other pages, then the bounce rate of the homepage would be 50%.
+
+
 
 **Time**
 
@@ -310,41 +327,87 @@ General
 
 
 
-# Experiment Questions
+## Experiment Questions
 
-- **What are the main steps in A/B Testing?**
-  - Pick one variable to test
-  - Identify your goal
-  - Primary goal
-    - Secondary goal
-  - Create a 'control' and a 'testing' group
+**What are the main steps in A/B Testing?**
+
+- Identify your goal under business needs
+  - Customer funnel
+- Pick one variable to test || Primary goal & Secondary goal
+  - CTR, bounce, conversion, renewal rate, average retention 
+- Hypothesis Setup
+- Create a 'control' and a 'testing' group
   - Split samples groups equally
-  - Determine sample size
+  - Simple Randomization 
+  - Block Randomization
+- Determine sample size
   - If this experiment has finite audience, then we might need to do the test longer to make sure there is enough interactions to gain a statistical result.
-  - Decide how significant you results need to be 
-  - Make sure you're only running one test at a time on any campaign
+- Decide how significant you results need to be 
+- Make sure you're only running one test at a time on any campaign
+  - Multi-variable test
+- Launch?
+  - Consider the cost
+  - Network effect
+  - Novelty effect
 
 
 
-- **What metrics do you want to improve?**
-- **Can you think of some variations can be made?**
-- **What change do you want to test? Why?**
-- **How many visiits/sample size do I need?**
-- **Can you calculate the practical significance (given costs)?**
-- **Will you launch the variation? (Given the test result)**
-- **How big is the sample size**
-- **How long to run the experiment?**
-- **How much traffic% for testing?**
-- **How to divide the % of the traffic for testing?**
-- **What's the target audience of the testing?**
+**How and when to do block randomization**
+
+For example, for Uber, we need to know that if you give some drivers more competitive advantage in the market, they will beat nearby drives which leads to imbalance resources. So we might focus on <u> block randomization</u>. 
+
+Based on different market (country, cities) , do block randomization.
+
+Market1 - Testing Group
+
+Market2 - Control Group
+
+For sample size calculation , the solution remains the same. 
+
+The **Caveat** for this problem is that within the group/market, customer might have higher correlation than standard A/B Testing randomization which means we should be cautious and might need to increase the sample size to increase the confidence/credibility of this case. The correlation across markets is fine.
 
 
 
-- **How to make your result more confidence?**
+ **How long to run the experiment?**
 
-  You can increase in confidence by A increase the confidence level which means you can change your significant level and increase the power.
+[AB Testing Geo-hashing](https://www.1point3acres.com/bbs/thread-543126-1-1.html)
 
-  You can increase the power. A) increase the sample size , so you can either open your experiment to attach more traffic or longer time
+For now I don't have an answer for this question, but based on my understanding, we should consider several aspects including:
+
+1. The sample size. How long are we able to collect enough sample size. 
+2. The product/customer cycle. The experiment should run at least for one cycle for customers. Here I mean at least one week or something to avoid some time factors. Like if you only run your test through Monday to Friday. When you actually launch the test, the result might be different because people behave differently in the weekends. 
+
+
+
+**How to make your result more confidence?**
+
+You can increase in confidence by A increase the confidence level which means you can change your significant level and increase the power.
+
+You can increase the power. A) increase the sample size , so you can either open your experiment to attach more traffic or longer time
+
+
+
+
+
+**What metrics do you want to improve?**
+
+**Can you think of some variations can be made?**
+
+**What change do you want to test? Why?**
+
+**How many visiits/sample size do I need?**
+
+**Can you calculate the practical significance (given costs)?**
+
+**Will you launch the variation? (Given the test result)**
+
+**How big is the sample size**
+
+**How much traffic% for testing?**
+
+**How to divide the % of the traffic for testing?**
+
+**What's the target audience of the testing?**
 
 
 
@@ -400,5 +463,6 @@ Some concepts are from forum 1point3acre. I adjusted them and appended my own co
 # Resources
 
 - [5 Validity Threats That Will Make Your A/B Tests Useless](https://splitbase.com/ab-testing-threats/)
-
 - [Summary of Udacity ABT](https://towardsdatascience.com/a-summary-of-udacity-a-b-testing-course-9ecc32dedbb1):
+- [Common ABT questions and answers for them from 1p3](https://www.1point3acres.com/bbs/thread-532567-1-1.html)
+- 
