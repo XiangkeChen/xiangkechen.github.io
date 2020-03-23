@@ -333,7 +333,7 @@ Bounce rate is calculated by the total number of one-page visits divided by the 
 
 - Identify your goal under business needs
   - Customer funnel
-- Pick one variable to test || Primary goal & Secondary goal
+- Pick one variable to test / Primary goal & Secondary goal
   - CTR, bounce, conversion, renewal rate, average retention 
 - Hypothesis Setup
 - Create a 'control' and a 'testing' group
