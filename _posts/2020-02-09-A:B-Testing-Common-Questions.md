@@ -3,7 +3,7 @@
 layout:     post
 title:      A/B Testing Common Questions
 subtitle:   A/B Testing
-date:       2020-02-09
+date:       2020-03-31
 author:     Xiangke
 header-img: img/tag-bg-o.jpg
 catalog: true
@@ -20,7 +20,8 @@ tags:
 
 ```
 - original post time: 2020/02/09
-- Lasest Update time: 2020/03/22
+- Update time: 2020/03/22
+- Lasest Update time: 2020/03/31
 ```
 
 
@@ -204,7 +205,7 @@ For example,
 
 
 
-Network Effect**
+**Network Effect**
 
 A **[network effect](https://en.wikipedia.org/wiki/Network_effect)** (also called **network externality** or **demand-side economies of scale**) is the effect described in [economics](https://en.wikipedia.org/wiki/Economics) and [business](https://en.wikipedia.org/wiki/Business) that an additional user of [goods](https://en.wikipedia.org/wiki/Goods) or [services](https://en.wikipedia.org/wiki/Service_(economics)) has on the [value](https://en.wikipedia.org/wiki/Value_(economics)) of that product to others. When a network effect is present, the value of a product or service increases according to the number of others using it.
 
@@ -384,6 +385,18 @@ For now I don't have an answer for this question, but based on my understanding,
 You can increase in confidence by A increase the confidence level which means you can change your significant level and increase the power.
 
 You can increase the power. A) increase the sample size , so you can either open your experiment to attach more traffic or longer time
+
+
+
+**How to mitigate change aversion problem?**
+
+[Source Link](https://teamcroco.com/how-our-natural-aversion-to-change-can-impact-a-b-test-results/)
+
+- Change incrementally and communicate well
+- Provide instructions and support
+- Provide feedback channels
+
+
 
 
 
