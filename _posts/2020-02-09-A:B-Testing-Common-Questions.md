@@ -140,6 +140,8 @@ In addition, since you know there will be change aversion problem, users need ti
 
 [Detecting-interference--an-a-b-test-of-a-b-test](https://engineering.linkedin.com/blog/2019/06/detecting-interference--an-a-b-test-of-a-b-tests) - Linkedin
 
+[Detecting Network Effect - Youtube](https://www.youtube.com/watch?time_continue=224&v=E3yiKJCgLE4&feature=emb_logo)
+
 A/B testing is, of course, common practice in a large range of settings, from drugs and vaccines to web applications. However, most methods rely on a strong assumption: when comparing feature A and feature B, the behavior of feature A users is not impacted by the activity of feature B users. In other words, most methods assume that there is no interference, which is sometimes called "network effect," between features. 
 
 
@@ -162,6 +164,10 @@ Our approach is simple:
 
 
 The key intuition is that if there is no network effect, both of these experiments should give us the same estimated effect. 
+
+
+
+![illustration-of-experiment](https://content.linkedin.com/content/dam/engineering/site-assets/images/blog/posts/2019/06/interference8.png)
 
 
 
