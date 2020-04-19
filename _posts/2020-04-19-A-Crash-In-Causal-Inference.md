@@ -23,12 +23,14 @@ This is my notes for the course **A Crash In Causal Inference** at Coursera.
 
 
 
-```
-Course Name: A Crash Course in Causality: Inferring Causal Effects from Observational Data
-Platform: Coursera
-University: by University of Pennsylvania
-Professor: Jason A. Roy, Ph.D.
-```
+- **Course Name**: A Crash Course in Causality: Inferring Causal Effects from Observational Data
+- **Platform**: Coursera
+- **University**: by University of Pennsylvania
+- **Professor**: Jason A. Roy, Ph.D.
+
+
+
+
 
 
 
