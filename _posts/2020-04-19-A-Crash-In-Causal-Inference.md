@@ -32,4 +32,3 @@ Professor: Jason A. Roy, Ph.D.
 
 
 
-![1Pb5uD-20200119233317669](2020-01-17-Data-Analysis-Resource.assets/1Pb5uD-20200119233317669.jpg)

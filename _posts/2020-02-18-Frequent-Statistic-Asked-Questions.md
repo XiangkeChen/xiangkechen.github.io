@@ -34,7 +34,7 @@ All forecasts are predictions, but not all predictions are forecasts, as when yo
 
 Correlation does not imply causation. Causation explicitly applies to cases where action A causes outcome B.
 
-[![3APRpQ.png](2020-02-18-Frequent-Statistic-Asked-Questions.assets/3APRpQ.png)](https://imgchr.com/i/3APRpQ)
+![png](https://images.ctfassets.net/vrkkgjbn4fsk/6zStaOhyU0II1ktEbqsFUN/1504e23f790afdda052f3516b8bc1089/correlation-vs-causation.png?q=90&w=1168)
 
 
 
