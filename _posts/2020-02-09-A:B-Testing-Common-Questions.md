@@ -195,7 +195,7 @@ community感觉有好多种方式
 
 # Statistical Concepts
 
-**P-Value**
+# **P-Value**
 
 The p-value is the probability of obtaining at least as extreme results given that the null hypothesis is true. In other words, the p-value is the expected fluctuation in a given sample, similar to the variance.
 
@@ -203,7 +203,7 @@ In AB testing, the p-value is the difference we would see across samples if we r
 
 
 
-**Significance Level**
+# **Significance Level**
 
 The significance level is the probability of rejecting the null hypothesis is given that it is true. It's a value we set based on the level of accuracy we deem acceptable.
 
@@ -297,7 +297,7 @@ Statistical power is the probability that a test correctly rejects the null hypo
 
 
 
-**Type I Error**
+# **Type I Error**
 
 Alpha - false postive
 
