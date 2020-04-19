@@ -35,15 +35,15 @@ tags:
 
 
 
-**CURRENT ROW** || boundary is the current row, generally used with other range keywords
+**CURRENT ROW** | boundary is the current row, generally used with other range keywords
 
-**UNBOUNDED PRECEDING** || boundary is the first row in the partition
+**UNBOUNDED PRECEDING** | boundary is the first row in the partition
 
-**UNBOUNDED FOLLOWING** || The boundary is the last line in the partition
+**UNBOUNDED FOLLOWING** | The boundary is the last line in the partition
 
-**expr PRECEDING** || boundary is the value of expr for the current row
+**expr PRECEDING** | boundary is the value of expr for the current row
 
-**expr FOLLOWING** || boundary is the current line plus the value of expr
+**expr FOLLOWING** | boundary is the current line plus the value of expr
 
 # Number Functions
 
