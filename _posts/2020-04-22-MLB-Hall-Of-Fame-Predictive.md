@@ -22,6 +22,7 @@ tags:
 
 -  The details of my implementation without many codes. This document is written for technical audience. So more code and logic details, please refer to `mlb-data_challenge`
 - The whole analysis was completed within 24 hours, so there are some rough analysis and assumptions. I admit there are errors, just focus on the structure instead of each detail. 
+- Detail codes could be found in my GitHub Repository ![Code](2020-04-22-MLB-Hall-Of-Fame-Predictive.assets/MLB-Baseball-Hall-Of-Fame)
 
 <div style="page-break-after: always;"></div>
 
