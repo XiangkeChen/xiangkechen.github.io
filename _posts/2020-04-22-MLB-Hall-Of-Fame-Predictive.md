@@ -22,10 +22,10 @@ tags:
 
 -  The details of my implementation without many codes. This document is written for technical audience. So more code and logic details, please refer to `mlb-data_challenge`
 - The whole analysis was completed within 24 hours, so there are some rough analysis and assumptions. I admit there are errors, just focus on the structure instead of each detail. 
-- Detail codes could be found in my GitHub Repository ![Code](2020-04-22-MLB-Hall-Of-Fame-Predictive.assets/MLB-Baseball-Hall-Of-Fame)
+-  Detail codes could be found in my GitHub Repository
+   -  [Code](https://github.com/XiangkeChen/MLB-Baseball-Hall-Of-Fame)
 
 <div style="page-break-after: always;"></div>
-
 # Business Background
 
 ## Background
@@ -107,7 +107,6 @@ For this project, I mainly use `HallofFame`, `Master`, `Batting` table for analy
 **More data will come into analysis in the future.**
 
 <div style="page-break-after: always;"></div>
-
 ### Master Table
 
 Master table contains the following information:
@@ -115,7 +114,6 @@ Master table contains the following information:
 ![8SCxBt.png](https://s2.ax1x.com/2020/03/09/8SCxBt.png)
 
 <div style="page-break-after: always;"></div>
-
 ### Hall of Fame Table
 
 Hall of Fame table contains the following information:
@@ -123,7 +121,6 @@ Hall of Fame table contains the following information:
 ![8SPC4S.png](https://s2.ax1x.com/2020/03/09/8SPC4S.png)
 
 <div style="page-break-after: always;"></div>
-
 ### Batting Table
 
 Batting table contains the following information:
@@ -131,7 +128,6 @@ Batting table contains the following information:
 ![8SP9N8.png](https://s2.ax1x.com/2020/03/09/8SP9N8.png)
 
 <div style="page-break-after: always;"></div>
-
 # Analysis Flow
 
 I followed the below approach to do the analysis. Due to limit time, I was unable to analyze very deep nor could I go through every detail. But the logic is the same as what I showed below.
@@ -157,7 +153,6 @@ Due to the space of this document and the limit time, I only address the feature
 
 
 <div style="page-break-after: always;"></div>
-
 ## Master Table
 
 There are 18846 rows in total in this table with 18846 unique players. So there are no duplicate records. Each row represent an player's information.
@@ -457,7 +452,6 @@ full_data = full_data[(full_data.age <= 120) & (full_data.age > 15)]
 ```
 
 <div style="page-break-after: always;"></div>
-
 # Predictive Modeling
 
 ## Normalization
@@ -669,7 +663,6 @@ With limited information, I am not sure the penalty/cost of wrong prediction ( F
 Since Random Forest has the highest F1-score. It's my best my model this time.
 
 <div style="page-break-after: always;"></div>
-
 # Reflection & What's Next
 
 ## Imbalanced Issue
